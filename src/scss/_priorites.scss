@@ -1,0 +1,45 @@
+.priorites{
+    background-color: #F6F6F6;
+    min-height: 473px;
+    padding-top: 73px;
+    padding-bottom: 83px;
+    display: flex;
+    justify-content: space-between; 
+
+
+&_official{
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+&_items{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+&_item{
+    margin-right: 70px;
+}
+
+
+&_icon{
+    margin-bottom: 35px;
+}
+
+&_subheader{
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+&_descr{
+    width: 277px;
+    span{
+        color: #FF0000;
+        text-decoration: underline;
+    }
+  }
+}
