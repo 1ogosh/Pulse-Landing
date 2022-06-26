@@ -1,0 +1,36 @@
+.priorites{
+    min-height: 480px;
+    padding: 21px 0 93px 0;
+    background-color: #F6F6F6;
+    &_official{
+        text-align: center;
+        padding-top: 73px;
+        padding-bottom: 60px;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 30px;
+    }
+    &_items{
+        display: flex;
+        align-items: center;
+        
+    }
+    &_item{
+        width: 273px;
+        margin-right: 68px;
+        text-align: center;
+    }
+    &_subheader{
+        padding-top: 35px;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 700;
+    }
+    &_descr{
+        padding-top: 20px;
+        text-align: center;
+    }
+    span{
+        color: #FF0000;
+    }
+}
