@@ -1,0 +1,53 @@
+.comments {
+    padding-bottom: 50px;
+    &_title{
+        padding-top: 79px;
+        text-align: center;
+        font-weight: 700;
+        font-size: 30px;
+        text-transform: uppercase;
+    }
+
+    &_items{
+        display: flex;
+        flex-direction: column;
+    }
+
+    &_text{
+        display: flex;
+        flex-direction: column;
+    }
+
+    &_item{
+        padding-top: 60px;
+        display: flex;
+    
+    &_icon{
+        margin-right: 61px;
+        margin-top: 15px;
+
+    }
+
+    &_header{
+        font-weight: 700;
+        font-size: 18px;
+    }
+
+    &_subheader{
+        font-weight: 500;
+        font-size: 14px;
+        color: #646464;
+    }
+
+    &_descr{
+        font-size: 16px;
+        font-weight: 400;
+        margin-top: 16px;
+    }
+    
+  }
+  span{
+    color:aquamarine;
+}
+
+}
