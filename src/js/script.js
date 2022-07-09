@@ -103,4 +103,6 @@ $(document).ready(function(){
     validateForms('#consultation-form');
     validateForms('#consultation form');
     validateForms('#order form');
+
+    $('input[name=phone]').mask(" +(380) 999-999-999");
 });
